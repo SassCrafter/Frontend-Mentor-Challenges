@@ -79,6 +79,12 @@ img {
   transition: box-shadow 250ms linear;
 }
 
+.project-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .project-img {
   width: 100%;
   height: 100%;
@@ -117,4 +123,10 @@ img {
 
 .project:hover .project-description {
   transform: scale(1) rotate(360deg);
+}
+
+@media screen and (max-width: 500px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
 }
