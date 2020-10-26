@@ -64,6 +64,7 @@ a {
   border-radius: 0.5rem;
   font-size: 1.4rem;
   font-weight: 500;
+  -webkit-appearance: none;
 }
 
 .trial-form-input:hover,
@@ -87,6 +88,7 @@ a {
   margin-bottom: 1.5rem;
   box-shadow: 0.3rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
   transition: opacity 250ms linear;
+  -webkit-appearance: none;
 }
 
 .trial-form-submit:hover {

@@ -104,6 +104,7 @@ a {
       margin-bottom: $margin-bot;
       box-shadow: 0.3rem 0.5rem 1rem rgba(0, 0, 0, 0.3);
       transition: opacity 250ms linear;
+      -webkit-appearance: none;
 
       &:hover {
         opacity: 0.8;
