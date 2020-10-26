@@ -74,6 +74,7 @@ img {
 // Projects
 .projects {
   min-height: 100vh;
+  padding: 1rem 0 3rem 0;
 
   &-container {
     display: grid;
@@ -137,5 +138,11 @@ img {
 @media screen and (max-width: 500px) {
   .projects-container {
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 812px) and (max-height: 400px) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
   }
 }

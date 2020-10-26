@@ -54,7 +54,7 @@ a {
 // Trial
 .trial {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   padding: 3rem 0 5rem 0;
   background-color: $red;
   background-image: url("../images/bg-intro-desktop.png");
@@ -80,6 +80,7 @@ a {
       border-radius: 0.5rem;
       font-size: 1.4rem;
       font-weight: 500;
+      -webkit-appearance: none;
 
       &:hover,
       &:focus {
