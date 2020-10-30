@@ -17,6 +17,9 @@ section {
 .bg-des-blue {
   @include set-bg($desaturated-blue);
 }
+.bg-dark-blue {
+  @include set-bg($dark-blue);
+}
 
 // Text
 .large {
@@ -103,5 +106,32 @@ section {
   img {
     width: 2rem;
     margin-left: 0.5rem;
+    transition: transform 500ms ease-in-out;
+  }
+
+  &:hover {
+    img {
+      transform: translateX(1rem);
+    }
+  }
+}
+
+@include media("tablet") {
+  .title {
+    text-align: left;
+    font-size: 1.8rem;
+  }
+
+  .flex,
+  .flex-reverse {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flex-item-left {
+    width: 55%;
+  }
+  .flex-item-right {
+    width: 40%;
   }
 }

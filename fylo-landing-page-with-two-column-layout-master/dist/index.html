@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;900&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
@@ -50,12 +52,15 @@
           <form action="" class="form">
             <div class="form-group">
               <input type="email" class="form-group-input" placeholder="Enter your email">
+              <button type="submit" class="btn btn-block">get started</button>
             </div>
-            <button type="submit" class="btn btn-block">get started</button>
+            
           </form>
         </div>
         <!-- Flex-item End -->
-        <img src="./images/illustration-1.svg" alt="" class="illustration">
+        <div class="flex-item flex-item-right">
+          <img src="./images/illustration-1.svg" alt="" class="illustration">
+        </div>
       </div>
       <!-- Flex End -->
     </div>
@@ -86,7 +91,9 @@
             </div>
         </div>
         <!-- Flex item End -->
-        <img src="./images/illustration-2.svg" alt="" class="illustration">
+        <div class="flex-item flex-item-right">
+          <img src="./images/illustration-2.svg" alt="" class="illustration">
+        </div>
       </div>
     </div>
   </section>
@@ -114,27 +121,94 @@
 
   
 
-  
-
-  
-
-  Phone: +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+  <footer class="footer bg-dark-blue">
+    <div class="container">
+      <img src="./images/logo.svg" alt="Fylo Landing page" class="footer-logo">
+      <div class="flex">
+        <div class="flex-item">
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="footer-link">
+                <img src="./images/icon-phone.svg" alt="phone" class="footer-list-img">
+                Phone: +1-543-123-4567
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">
+                <img src="./images/icon-email.svg" alt="email" class="footer-list-img">
+                example@fylo.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- flex-item end -->
+        <div class="flex-item">
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="footer-link">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">
+                Jobs
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">
+                Press
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">
+                Blog
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- flex-item end -->
+        <div class="flex-item">
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="footer-link">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">
+                Terms
+              </a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">
+                Press
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Flex item end-->
+        <div class="flex-item">
+          <ul class="sm">
+            <li>
+              <a href="#" class="sm-link">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sm-link">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="sm-link">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </footer>
+
 </body>
 </html>

@@ -29,6 +29,18 @@
       padding: 0.2rem;
     }
   }
+
+  @include media("tablet") {
+    .nav {
+      &-list {
+        &-item {
+          &:not(:last-child) {
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 .logo {

@@ -12,3 +12,12 @@
   background: $color;
   color: set-text-color($color);
 }
+
+// Media
+@mixin media($device) {
+  @if ($device == "tablet") {
+    @media screen and (min-width: $tablet-breakpoint) {
+      @content;
+    }
+  }
+}
